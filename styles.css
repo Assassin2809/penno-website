@@ -1,0 +1,195 @@
+.body{
+    background-color:#22E7E7 
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
+  .left, .right {
+    flex: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: red;
+    text-decoration: solid;    
+  }
+  .left1, .right1{
+    flex: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    color: red;
+    text-decoration: solid; 
+    margin-top: 40px;
+  }
+
+  .left, .left1 {
+    text-align: left;
+    
+  }
+
+  .right, .right1 {
+    text-align: right;
+    
+  }
+  .header-text{
+    text-align: center;
+  } 
+    
+  .logo {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    vertical-align: middle;
+    margin-right: 150px;
+ }
+ .blue-nav {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkblue;
+    height: 100px;
+    width: vw;
+    
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 10px;
+    color: red;
+    font-size: larger;
+  }
+
+  .nav-links a {
+    text-decoration: none;
+    color: red;
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  .nav-anchor{
+    font-size: x-large;
+  }
+  .nav-anchor1{
+    font-size: x-large;
+  }
+  .nav-anchor2{
+    font-size: x-large;
+  }
+  .nav-anchor3{
+    font-size: x-large;
+  }
+  .video1{
+    margin-left: 100px;
+    }
+   .radio_ad{
+    margin-left: 570px;
+   }
+    
+   .container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+
+  .rooms {
+    width: 30%;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: white;
+    text-align: center;
+    color: red;
+  }
+
+  .qr-code {
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .qr-code img {
+    width: 100px;
+    height: 100px;
+  }
+  .subject-row {
+    display: flex;
+    
+    margin: 20px 0;
+  }
+
+  .subject {
+      font-family: Arial, Helvetica, sans-serif;
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    background-color: #FFF;
+    border: 2px solid #000;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .subject:hover {
+    background-color: #FF5733;
+  }
+  .middle{
+    color: red;
+  }
+
+  .container {
+    text-align: center;
+  }
+
+  .item {
+    display: inline-block;
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+
+  .item:hover {
+    background-color: #45a049;
+  }
+
+  .item::after {
+    content: " ➔";
+  }
+
+  .text {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+  }
+
+  .text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+
+  .text a {
+    color: #4CAF50;
+    text-decoration: none;
+  }
+
+  .text a:hover {
+    text-decoration: underline;
+  }
+  .centered-links {
+    text-align: center;
+  }
+  .poster1{
+    margin-left: 220px;
+  }
+  .poster2{
+    margin-left: 120px;
+  }
+ .centered{
+  text-align: center;
+ }
