@@ -193,3 +193,7 @@
  .centered{
   text-align: center;
  }
+ .min-video{
+  width: 600px;
+  height: 300px;
+ }
